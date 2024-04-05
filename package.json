@@ -1,0 +1,31 @@
+{
+  "name": "danger-plugin-prettier",
+  "version": "1.0.0",
+  "description": "A prettier plugin for dangerjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "watch": "babel src --out-dir dist --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-marolie/danger-plugin-prettier.git"
+  },
+  "keywords": [
+    "prettier",
+    "dangerjs",
+    "js"
+  ],
+  "author": "Akshith Marolie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-marolie/danger-plugin-prettier/issues"
+  },
+  "homepage": "https://github.com/the-marolie/danger-plugin-prettier#readme",
+  "devDependencies": {
+    "danger": "^11.3.1",
+    "prettier": "^3.2.5",
+    "@babel/cli": "^7.24.1",
+    "@babel/preset-env": "^7.24.4"
+  }
+}
