@@ -1,6 +1,6 @@
 {
   "name": "danger-plugin-prettierjs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A prettier plugin for dangerjs",
   "main": "dist/index.js",
   "scripts": {
